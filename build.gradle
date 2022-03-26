@@ -23,7 +23,9 @@ dependencies {
     implementation group: 'org.apache.lucene', name: 'lucene-core', version: '8.9.0'
     implementation group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '8.9.0'
     implementation group: 'org.apache.lucene', name: 'lucene-queryparser', version: '8.9.0'
-
+    implementation "org.deeplearning4j:deeplearning4j-core:1.0.0-beta6"
+    implementation "org.deeplearning4j:deeplearning4j-nlp:1.0.0-beta6"
+    implementation "org.nd4j:nd4j-native-platform:1.0.0-beta6"
 }
 
 test {

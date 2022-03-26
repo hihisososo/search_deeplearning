@@ -1,2 +1,5 @@
 com/search/deeplearning/SynonymExpandSearch.java
  com.search.deeplearning.SynonymExpandSearch
+ com.search.deeplearning.SynonymExpandSearch$1
+com/search/deeplearning/dl4j/Word2VecDl4jExample.java
+ com.search.deeplearning.dl4j.Word2VecDl4jExample
