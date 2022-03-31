@@ -1,5 +1,15 @@
-com/search/deeplearning/SynonymExpandSearch.java
- com.search.deeplearning.SynonymExpandSearch
- com.search.deeplearning.SynonymExpandSearch$1
-com/search/deeplearning/dl4j/Word2VecDl4jExample.java
- com.search.deeplearning.dl4j.Word2VecDl4jExample
+com/search/deeplearning/ch2/W2VSynonymFilter.java
+ com.search.deeplearning.ch2.W2VSynonymFilter
+ com.search.deeplearning.ch2.W2VSynonymFilter$1
+ com.search.deeplearning.ch2.W2VSynonymFilter$PendingOutput
+com/search/deeplearning/ch2/Word2VecDl4jExample.java
+ com.search.deeplearning.ch2.Word2VecDl4jExample
+com/search/deeplearning/ch3/CharacterIterator.java
+ com.search.deeplearning.ch3.CharacterIterator
+com/search/deeplearning/ch2/SynonymExpandSearch.java
+ com.search.deeplearning.ch2.SynonymExpandSearch
+ com.search.deeplearning.ch2.SynonymExpandSearch$1
+com/search/deeplearning/ch2/FieldValuesSentenceIterator.java
+ com.search.deeplearning.ch2.FieldValuesSentenceIterator
+com/search/deeplearning/ch3/SampleLstm.java
+ com.search.deeplearning.ch3.SampleLstm
