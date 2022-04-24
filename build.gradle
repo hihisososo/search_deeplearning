@@ -20,12 +20,40 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.apache.lucene', name: 'lucene-core', version: '8.9.0'
-    implementation group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '8.9.0'
-    implementation group: 'org.apache.lucene', name: 'lucene-queryparser', version: '8.9.0'
-    implementation "org.deeplearning4j:deeplearning4j-core:1.0.0-beta6"
-    implementation "org.deeplearning4j:deeplearning4j-nlp:1.0.0-beta6"
-    implementation "org.nd4j:nd4j-native-platform:1.0.0-beta6"
+    compile "org.slf4j:slf4j-api:1.7.25"
+    compile "org.slf4j:slf4j-simple:1.7.25"
+    compile "commons-io:commons-io:2.5"
+    testCompile "org.apache.lucene:lucene-test-framework:7.7.1"
+    testCompile "org.apache.lucene:lucene-misc:7.7.1"
+    compile "org.apache.lucene:lucene-queryparser:7.7.1"
+    compile "org.apache.lucene:lucene-classification:7.7.1"
+    compile "org.apache.lucene:lucene-core:7.7.1"
+    compile "org.apache.lucene:lucene-backward-codecs:7.7.1"
+    compile "org.apache.lucene:lucene-sandbox:7.7.1"
+    compile "org.apache.lucene:lucene-spatial:7.7.1"
+    compile "org.apache.lucene:lucene-spatial-extras:7.7.1"
+    compile "org.apache.lucene:lucene-spatial3d:7.7.1"
+    compile "org.apache.lucene:lucene-analyzers-common:7.7.1"
+    compile "org.apache.lucene:lucene-suggest:7.7.1"
+    compile "org.apache.joshua:joshua-incubating:6.1"
+    compile "org.apache.opennlp:opennlp-tools:1.9.0"
+    testCompile "com.carrotsearch.randomizedtesting:randomizedtesting-runner:2.4.0"
+    testCompile "junit:junit:4.11"
+    compile "com.google.guava:guava:18.0"
+    compile "org.apache.commons:commons-math3:3.6.1"
+    compile "org.locationtech.spatial4j:spatial4j:0.6"
+    compile "org.deeplearning4j:deeplearning4j-core:1.0.0-beta3"
+    compile "org.deeplearning4j:deeplearning4j-nlp:1.0.0-beta3"
+    compile "org.deeplearning4j:deeplearning4j-ui_2.11:1.0.0-beta3"
+    compile "org.deeplearning4j:deeplearning4j-zoo:1.0.0-beta3"
+    compile "org.nd4j:nd4j-native-platform:1.0.0-beta3"
+    testCompile "org.apache.commons:commons-compress:1.16.1"
+    compile "org.apache.flink:flink-core:1.6.0"
+    compile "org.apache.flink:flink-java:1.6.0"
+    compile "org.apache.flink:flink-shaded-hadoop2:1.6.0"
+    compile "org.apache.flink:flink-connector-twitter_2.11:1.6.0"
+    compile "org.apache.flink:flink-streaming-java_2.11:1.6.0"
+    compile "org.apache.flink:flink-runtime_2.11:1.6.0"
 }
 
 test {
