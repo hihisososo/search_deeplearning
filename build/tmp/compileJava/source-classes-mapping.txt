@@ -1,15 +1,29 @@
+com/search/deeplearning/utils/LuceneTokenizerFactory.java
+ com.search.deeplearning.utils.LuceneTokenizerFactory
+ com.search.deeplearning.utils.LuceneTokenizerFactory$LuceneTokenizer
+com/search/deeplearning/utils/NeuralNetworksUtils.java
+ com.search.deeplearning.utils.NeuralNetworksUtils
 com/search/deeplearning/ch2/W2VSynonymFilter.java
  com.search.deeplearning.ch2.W2VSynonymFilter
  com.search.deeplearning.ch2.W2VSynonymFilter$1
  com.search.deeplearning.ch2.W2VSynonymFilter$PendingOutput
+com/search/deeplearning/utils/encdec/CorpusIterator.java
+ com.search.deeplearning.utils.encdec.CorpusIterator
 com/search/deeplearning/ch2/Word2VecDl4jExample.java
  com.search.deeplearning.ch2.Word2VecDl4jExample
-com/search/deeplearning/ch3/CharacterIterator.java
- com.search.deeplearning.ch3.CharacterIterator
+com/search/deeplearning/utils/WikipediaImport.java
+ com.search.deeplearning.utils.WikipediaImport
+com/search/deeplearning/ch2/FieldValuesSentenceIterator.java
+ com.search.deeplearning.ch2.FieldValuesSentenceIterator
 com/search/deeplearning/ch2/SynonymExpandSearch.java
  com.search.deeplearning.ch2.SynonymExpandSearch
  com.search.deeplearning.ch2.SynonymExpandSearch$1
-com/search/deeplearning/ch2/FieldValuesSentenceIterator.java
- com.search.deeplearning.ch2.FieldValuesSentenceIterator
+com/search/deeplearning/utils/encdec/CorpusProcessor.java
+ com.search.deeplearning.utils.encdec.CorpusProcessor
+com/search/deeplearning/utils/encdec/EncoderDecoderLSTM.java
+ com.search.deeplearning.utils.encdec.EncoderDecoderLSTM
+ com.search.deeplearning.utils.encdec.EncoderDecoderLSTM$1
+com/search/deeplearning/utils/CharacterIterator.java
+ com.search.deeplearning.utils.CharacterIterator
 com/search/deeplearning/ch3/SampleLstm.java
  com.search.deeplearning.ch3.SampleLstm
