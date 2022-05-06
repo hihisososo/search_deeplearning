@@ -3,7 +3,6 @@ package com.search.deeplearning.ch3;
 import static com.search.deeplearning.utils.NeuralNetworksUtils.sampleFromDistribution;
 
 import com.search.deeplearning.utils.CharacterIterator;
-import com.search.deeplearning.utils.NeuralNetworksUtils;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import org.deeplearning4j.nn.conf.BackpropType;
@@ -56,16 +55,16 @@ public class SampleLstm {
     StringBuilder initialization = new StringBuilder();
     initialization.append("Look in thy glass and");
 
-      INDArray input = Nd4j.zeros(sequenceSize, initialization.length());
-      char[] init = initialization.toString().toCharArray();
-      for (int i = 0; i < init.length; i++) {
-        int idx = iterator.convertCharacterToIndex(init[i]);
-
-        input.putScalar(new int[]{idx, 1}, 1.0f);
-      }
-      INDArray output = net.rnnTimeStep(input);
-      int sampledCharacterIdx = sampleFromDistribution(output.toDoubleVector());
-      char c = iterator.convertIndexToCharacter(sampledCharacterIdx);
-      System.out.print(c);
+    INDArray input = Nd4j.zeros(1, sequenceSize, initialization.length());
+    char[] init = initialization.toString().toCharArray();
+    for (int i = 0; i < init.length; i++) {
+      int idx = iterator.convertCharacterToIndex(init[i]);
+      input.putScalar(new int[]{1, idx, 1}, 1.0f);
+    }
+    INDArray output = net.rnnTimeStep(input);
+    double doubles = output.getDouble(1);
+    int sampledCharacterIdx = sampleFromDistribution(output.toDoubleVector());
+    char c = iterator.convertIndexToCharacter(sampledCharacterIdx);
+    System.out.print(c);
   }
 }
